@@ -1,11 +1,3 @@
-
-// Author: Shikha Pallavi
-// Date: 12/10/2024
-// Revision History:
-// Version 1.0 - Initial creation of StockItem tests
-//                - Added tests for constructor and copy constructor
-
-
 using NUnit.Framework;
 using OrderSystemLibrary;
 

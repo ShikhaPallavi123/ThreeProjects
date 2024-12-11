@@ -1,20 +1,3 @@
-
-// Author: Shikha Pallavi
-// Date: 12/10/2024
-// Revision History:
-// Version 1.0 - Initial creation of OrderDetail tests
-//                - Implemented tests for calculating detail total, tariff for electronic and non-electronic items,
-// and deep copy functionality
-// Version 1.1 - Refined assertions for better error messages and verification of detail totals and tariffs
-//                - Improved tests to check for edge cases like zero quantity or non-electronic items
-// Version 1.2 - Enhanced deep copy verification to ensure proper object cloning without shared references
-// Version 1.3 - Final release for Version 1.x
-//                - Cleaned up tests to ensure clarity and accuracy of validation for detail total, tariff,
-// and deep copy functionality
-// Version 2.0 (Future) - Plan to extend tests to cover more complex scenarios like applying discount rules or
-// handling invalid data inputs
-
-
 using NUnit.Framework;
 using OrderSystemLibrary;
 

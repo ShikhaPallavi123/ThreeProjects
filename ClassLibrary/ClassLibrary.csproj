@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+      <PackageReference Include="MySql.Data" Version="9.1.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="SQLite" Version="3.13.0" />
+      <PackageReference Include="SQLite.Interop.dll" Version="1.0.103" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    </ItemGroup>
+
 </Project>

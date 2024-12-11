@@ -1,20 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-// Author: Shikha Pallavi
-// Date: 12/10/2024
-// Revision History:
-// Version 1.0 - Initial creation of the Order class
-//                - Defined properties for OrderNumber, DateTime, Customer, TaxAmount, TariffAmount, TotalAmount, and OrderDetails
-//                - Implemented constructor for initializing OrderDetails as an empty list
-//                - Added Copy Constructor to clone Order object and its associated Customer and OrderDetails
-// Version 1.1 - Implemented AddOrderDetail method to add individual OrderDetail objects to OrderDetails list
-//                - Added CalculateTotalAmount method to calculate total amounts (Tax, Tariff, and Total) based on OrderDetails
-//                - Assumed a 10% tax rate for TaxAmount calculation
-// Version 1.2 - Refined calculation logic and handling for multiple details and tariff values
-//                - Ensured proper handling of deep copy in the Copy Constructor for OrderDetails
-
-
 namespace OrderSystemLibrary
 {
     public class Order

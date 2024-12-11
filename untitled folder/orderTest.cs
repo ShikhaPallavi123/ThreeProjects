@@ -1,19 +1,3 @@
-
-// Author: Shikha Pallavi
-// Date: 12/10/2024
-// Revision History:
-// Version 1.0 - Initial creation of Order tests
-//                - Added tests for adding order details, calculating total amount, and deep copy constructor
-//                - Implemented logic for verifying correct total calculation, tax, and tariff application
-// Version 1.1 - Improved test for deep copy constructor with checks for instance uniqueness
-//                - Refined assertions for verifying total amount calculation
-// Version 1.2 - Finalized the tests, ensuring proper functionality of methods in the Order class
-//                - Verified deep copy behavior, ensuring customer and order details are copied correctly
-// Version 2.0 (Future) - Plan to add more tests for error handling in edge cases
-//                        - Plan to extend tests for different item types and tariffs
-
-
-
 using NUnit.Framework;
 using OrderSystemLibrary;
 using System;
